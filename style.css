@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(223, 252, 252);
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.imageDiv {
+  width: 400px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.5s;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  transition: all 0.1s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
